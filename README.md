@@ -1,16 +1,53 @@
-# flutter_magazine
+# Flutter Magazine
 
-A new Flutter project.
+Online Magazine store design made in Flutter and inspired by Dribble shot by Daniel Moss. [Design Inspiration](https://dribbble.com/shots/6654840-Magazine-Store)
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+|                    Home Screen                |                    Detail Screen                 | 
+| :-------------------------------------------: | :----------------------------------------------: | 
+| ![Home Screen](screenshot02.png) | ![Detail Screen](screenshot01.png) |
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Step 1:**
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Download or clone this repo by using the link below:
+
+```bash
+https://github.com/csi-vitpune/FlutterMagazine.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies: 
+
+```bash
+flutter pub get 
+```
+
+**Step 3:**
+
+Attach android or iOS device and execute following command: 
+
+```bash
+flutter run 
+```
+
+## Project Structure
+
+```
+FlutterMagazine/
+|- android
+|- assets/poster
+|- build
+|- ios
+|- lib
+   |- screens
+   |- widgets
+|- test
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
