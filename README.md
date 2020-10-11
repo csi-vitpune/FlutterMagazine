@@ -51,3 +51,52 @@ FlutterMagazine/
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+##  Contribution
+
+**Step 1:**
+
+Fork Repository
+
+```bash
+Click on the Fork
+```
+
+**Step 2:**
+
+Clone Forked repository Repository
+
+```bash
+git clone [Forked Repo link]
+```
+
+**Step 3:**
+
+Make Necessary Changes
+
+**Step 4:**
+
+Syncing a Forked Repository with Upstream
+
+```bash
+git remote add upstream https://github.com/csi-vitpune/DS-Algo_CSI-VIT-Pune.git
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
+
+**Step 5:**
+
+Push Changes to Forked Repository
+
+```bash
+git push
+```
+
+**Step 6:**
+
+Create Merge Request
+
+```bash
+By navigating to Create New Merge request
+```
+
