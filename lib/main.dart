@@ -3,9 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_magazine/screens/DetailScreen.dart';
 import 'package:flutter_magazine/screens/HomeScreen.dart';
 
-void main() {
-  runApp(MainApp());
-}
+void main() => runApp(MainApp());
 
 class MainApp extends StatefulWidget {
   @override
@@ -31,7 +29,7 @@ class _MainAppState extends State<MainApp> {
         statusBarColor: Colors.white, statusBarBrightness: Brightness.light));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Magazine',
+      title: 'Magazine.',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
