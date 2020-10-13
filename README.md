@@ -83,7 +83,7 @@ Make Necessary Changes
 Syncing a Forked Repository with Upstream
 
 ```bash
-git remote add upstream https://github.com/csi-vitpune/DS-Algo_CSI-VIT-Pune.git
+git remote add upstream https://github.com/csi-vitpune/FlutterMagazine.git
 git fetch upstream
 git checkout master
 git merge upstream/master
