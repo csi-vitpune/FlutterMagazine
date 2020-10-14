@@ -4,9 +4,14 @@ Online Magazine store design made in Flutter and inspired by Dribble shot by Dan
 
 ## Screenshots
 
-|                    Home Screen                |                    Detail Screen                 | 
-| :-------------------------------------------: | :----------------------------------------------: | 
-| ![Home Screen](screenshot02.png) | ![Detail Screen](screenshot01.png) |
+<table>
+  <thead>
+    <tr><th align="center">                    Home Screen                </th><th align="center">                    Detail Screen                 </th></tr>
+  </thead>
+  <tbody>
+    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td></tr>
+  </tbody>
+</table>
 
 ## Installation
 
@@ -78,7 +83,7 @@ Make Necessary Changes
 Syncing a Forked Repository with Upstream
 
 ```bash
-git remote add upstream https://github.com/csi-vitpune/DS-Algo_CSI-VIT-Pune.git
+git remote add upstream https://github.com/csi-vitpune/FlutterMagazine.git
 git fetch upstream
 git checkout master
 git merge upstream/master
