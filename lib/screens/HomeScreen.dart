@@ -8,16 +8,33 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        //appBar: AppBar(title: CustomAppBar(), backgroundColor: Colors.white,elevation: 0.0, iconTheme: IconThemeData(color: Colors.black),),
         backgroundColor: Colors.white,
-        body: SafeArea(
+        body: HomeWidget(),
+      );
+  }
+}
+
+class HomeWidget extends StatelessWidget {
+  const HomeWidget({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+      child: SingleChildScrollView(
+                  child: Container(
+                    height: MediaQuery.of(context).size.height,
+                    width: MediaQuery.of(context).size.width,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisSize: MainAxisSize.max,
             children: <Widget>[
               CustomAppBar(),
               SizedBox(
-                height: 16.0,
+                height: 8.0,
               ),
               Container(
                 height: 300.0,
@@ -35,10 +52,14 @@ class HomeScreen extends StatelessWidget {
                     itemCount: data.length),
               ),
               Expanded(
+                
                 child: CustomTabBarView(),
-              )
+              ),
+              SizedBox(height: 100,)
             ],
           ),
-        ));
+        ),
+      ),
+    );
   }
 }

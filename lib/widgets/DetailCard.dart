@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DetailCard extends StatelessWidget {
   final String title, poster, publishedDate;
@@ -60,22 +61,24 @@ class DetailCard extends StatelessWidget {
                         children: <Widget>[
                           Text(
                             title,
-                            style:
-                                Theme.of(context).textTheme.subtitle1.copyWith(
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                            style: GoogleFonts.montserrat(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                               
                           ),
                           SizedBox(
                             height: 12.0,
                           ),
                           Text(
                             publishedDate,
-                            style: Theme.of(context)
-                                .textTheme
-                                .subtitle2
-                                .copyWith(
-                                    fontWeight: FontWeight.bold,
-                                    color: Color(0xFFBBBBBB)),
+                            style: GoogleFonts.poppins(
+                              fontWeight: FontWeight.w600,
+                              color: Color(0xFFBBBBBB),
+                              wordSpacing: 2,
+                              letterSpacing: 1.2,  
+                            )
+                            
                           ),
                         ],
                       ),

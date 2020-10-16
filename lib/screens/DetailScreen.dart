@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_magazine/widgets/CustomButton.dart';
 import 'package:flutter_magazine/widgets/CustomIconButton.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DetailScreen extends StatelessWidget {
   @override
@@ -101,18 +102,23 @@ class DetailScreen extends StatelessWidget {
             ),
             Text(
               data['publishedDate'],
-              style: Theme.of(context).textTheme.subtitle2.copyWith(
-                  color: Colors.grey[400], fontWeight: FontWeight.w600),
-            ),
+              style: GoogleFonts.nunitoSans(
+                fontWeight: FontWeight.w700,
+                color: Colors.grey,
+                letterSpacing: 1.3,
+                wordSpacing: 2,
+            ),),
             SizedBox(
               height: 16.0,
             ),
             Text(
               data['title'],
-              style: Theme.of(context)
-                  .textTheme
-                  .headline5
-                  .copyWith(color: Colors.black, fontWeight: FontWeight.bold),
+              style: GoogleFonts.nunitoSans(
+                fontWeight: FontWeight.bold,
+                fontSize: 32,
+                wordSpacing: 5,
+                letterSpacing: 1.4,
+              )
             ),
             SizedBox(
               height: 32.0,
@@ -152,15 +158,17 @@ class DetailScreen extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text("\$ ${data['price']}",
-                          style: Theme.of(context)
-                              .textTheme
-                              .headline6
-                              .copyWith(fontWeight: FontWeight.bold)),
+                          style: GoogleFonts.montserrat(
+                            fontWeight: FontWeight.w600,
+                            letterSpacing: 1.2,
+                          )),
                       SizedBox(height: 4.0),
                       Text("without delivery",
-                          style: Theme.of(context).textTheme.caption.copyWith(
-                              color: Colors.grey[400],
-                              fontWeight: FontWeight.bold)),
+                          style: GoogleFonts.roboto(
+                            color: Colors.grey[400],
+                            letterSpacing: 0.5
+                          
+                              ),),
                     ],
                   ),
                   Spacer(),

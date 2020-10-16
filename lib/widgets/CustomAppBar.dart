@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      
       padding: EdgeInsets.symmetric(
-        horizontal: 16.0,
-        vertical: 16.0,
+        horizontal: 8.0,
+        vertical: 8.0,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -17,10 +19,12 @@ class CustomAppBar extends StatelessWidget {
           ),
           Text(
             "Magazine.",
-            style: Theme.of(context)
-                .textTheme
-                .headline5
-                .copyWith(fontWeight: FontWeight.bold),
+            style: GoogleFonts.nunitoSans(
+              fontWeight: FontWeight.bold, 
+              fontSize: 33,
+              letterSpacing: 1.2,
+            ),
+            
           ),
           Icon(
             Icons.search,

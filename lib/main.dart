@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_magazine/screens/DetailScreen.dart';
 import 'package:flutter_magazine/screens/HomeScreen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MainApp());
@@ -70,8 +71,9 @@ class _MainAppState extends State<MainApp> {
                           ),
                           title: Text(
                             'Store',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
+                            style: GoogleFonts.montserrat(
+                              fontWeight: FontWeight.bold, fontSize: 16.0,letterSpacing: 2,
+                            )
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -81,8 +83,9 @@ class _MainAppState extends State<MainApp> {
                           ),
                           title: Text(
                             'Favourite',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
+                            style: GoogleFonts.montserrat(
+                                fontWeight: FontWeight.bold, fontSize: 16.0, letterSpacing: 2,),
+                                
                           ),
                         ),
                         BottomNavigationBarItem(
@@ -92,8 +95,8 @@ class _MainAppState extends State<MainApp> {
                           ),
                           title: Text(
                             'Cart',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
+                            style: GoogleFonts.montserrat(
+                                fontWeight: FontWeight.bold, fontSize: 16.0, letterSpacing: 2,),
                           ),
                         ),
                       ])),

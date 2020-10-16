@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class VerticalCard extends StatelessWidget {
   final String poster, title, publishedDate;
@@ -45,16 +46,21 @@ class VerticalCard extends StatelessWidget {
             SizedBox(height: 16.0),
             Text(
               title,
-              style: Theme.of(context)
-                  .textTheme
-                  .subtitle1
-                  .copyWith(fontWeight: FontWeight.bold),
-            ),
+              style: GoogleFonts.montserrat(
+                fontWeight: FontWeight.bold,                
+                letterSpacing: 0.8,
+                fontSize: 16,
+              ),
+               ),
             SizedBox(height: 8.0),
             Text(
               publishedDate,
-              style: Theme.of(context).textTheme.subtitle2.copyWith(
-                  fontWeight: FontWeight.bold, color: Color(0xFFBBBBBB)),
+              style: GoogleFonts.poppins(
+                color: Color(0xFFBBBBBB),
+                fontWeight: FontWeight.w600,  
+                wordSpacing: 2,
+                letterSpacing: 1.3,              
+              )
             ),
           ],
         ),
