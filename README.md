@@ -6,10 +6,10 @@ Online Magazine store design made in Flutter and inspired by Dribble shot by Dan
 
 <table>
   <thead>
-    <tr><th align="center">                    Home Screen                </th><th align="center">                    Detail Screen                 </th></tr>
+    <tr><th align="center">                    Home Screen                </th><th align="center">                    Detail Screen                 </th>  <th align="center">                    About Screen                 </th></tr>
   </thead>
   <tbody>
-    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td></tr>
+    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/01.gif" alt="Detail Screen  " class="absent" /> </td></tr>
   </tbody>
 </table>
 
