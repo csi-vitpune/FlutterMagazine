@@ -55,6 +55,9 @@ class _MainAppState extends State<MainApp> {
                       unselectedItemColor: Colors.grey[400],
                       backgroundColor: Colors.black,
                       currentIndex: tabIndex,
+                      unselectedLabelStyle: TextStyle(fontSize: 16.0),
+                      selectedLabelStyle: TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 18.0),
                       onTap: (int index) {
                         setState(() {
                           tabIndex = index;
@@ -66,33 +69,21 @@ class _MainAppState extends State<MainApp> {
                             Icons.widgets,
                             size: 30.0,
                           ),
-                          title: Text(
-                            'Store',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
-                          ),
+                          label: 'Store',
                         ),
                         BottomNavigationBarItem(
                           icon: Icon(
                             Icons.bookmark_border,
                             size: 30.0,
                           ),
-                          title: Text(
-                            'Favourite',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
-                          ),
+                          label: 'Favourite',
                         ),
                         BottomNavigationBarItem(
                           icon: Icon(
                             Icons.shopping_basket,
                             size: 30.0,
                           ),
-                          title: Text(
-                            'Cart',
-                            style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 16.0),
-                          ),
+                          label: 'Cart',
                         ),
                       ])),
             ),
