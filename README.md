@@ -9,9 +9,7 @@ Online Magazine store design made in Flutter and inspired by Dribble shot by Dan
     <tr><th align="center">                    Home Screen                </th><th align="center">                    Detail Screen                 </th></tr>
   </thead>
   <tbody>
-    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td>
-    <td align="center"> <img src="assets/images/results/01.gif" alt="About Page" class="absent" /> </td>
-    </tr>
+    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td></tr>
   </tbody>
 </table>
 
@@ -27,18 +25,18 @@ https://github.com/csi-vitpune/FlutterMagazine.git
 
 **Step 2:**
 
-Go to project root and execute the following command in console to get the required dependencies:
+Go to project root and execute the following command in console to get the required dependencies: 
 
 ```bash
-flutter pub get
+flutter pub get 
 ```
 
 **Step 3:**
 
-Attach android or iOS device and execute following command:
+Attach android or iOS device and execute following command: 
 
 ```bash
-flutter run
+flutter run 
 ```
 
 ## Project Structure
@@ -56,10 +54,9 @@ FlutterMagazine/
 ```
 
 ## Contributing
-
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Contribution
+##  Contribution
 
 **Step 1:**
 
@@ -107,3 +104,4 @@ Create Merge Request
 ```bash
 By navigating to Create New Merge request
 ```
+
