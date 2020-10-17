@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_magazine/screens/aboutpage.dart';
 
 class CustomAppBar extends StatelessWidget {
   @override
@@ -11,9 +12,17 @@ class CustomAppBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          Icon(
-            Icons.menu,
-            size: 28.0,
+          InkWell(
+            onTap: (){
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => AboutPage()),
+                    );
+            },
+                      child: Icon(
+              Icons.menu,
+              size: 28.0,
+            ),
           ),
           Text(
             "Magazine.",
