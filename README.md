@@ -1,19 +1,41 @@
-# Flutter Magazine
+<div align="center">
 
-Online Magazine store design made in Flutter and inspired by Dribble shot by Daniel Moss. [Design Inspiration](https://dribbble.com/shots/6654840-Magazine-Store)
+#  Flutter Magazine
+***Online Magazine Store***
 
-## Screenshots
+![](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
+![](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen.svg)
+
+**[Design inspired by the work of Daniel Moss.](https://dribbble.com/shots/6654840-Magazine-Store) 🎨**
+
+</div>
 
 <table>
   <thead>
-    <tr><th align="center">                    Home Screen                </th><th align="center">                    Detail Screen                 </th>  <th align="center">                    About Screen                 </th></tr>
+    <tr>
+      <th align="center">Home Screen</th>
+      <th align="center">Detail Screen</th>
+      <th align="center">About Screen</th>
+    </tr>
   </thead>
   <tbody>
-    <tr><td align="center"> <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" /> </td><td align="center"> <img src="assets/images/results/01.gif" alt="Detail Screen  " class="absent" /> </td></tr>
+    <tr>
+      <td align="center"> 
+        <img src="assets/images/results/screenshot02.png" alt="Home Screen" class="absent" />
+      </td>
+      <td align="center">
+        <img src="assets/images/results/screenshot01.png" alt="Detail Screen" class="absent" />
+      </td>
+      <td align="center">
+        <img src="assets/images/results/01.gif" alt="Detail Screen  " class="absent" />
+      </td>
+    </tr>
   </tbody>
 </table>
 
-## Installation
+## Manual 📖
+
+- ### Installation
 
 **Step 1:**
 
@@ -39,32 +61,11 @@ Attach android or iOS device and execute following command:
 flutter run 
 ```
 
-## Project Structure
-
-```
-FlutterMagazine/
-|- android
-|- assets/poster
-|- build
-|- ios
-|- lib
-   |- screens
-   |- widgets
-|- test
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-##  Contribution
+- ### Contribution
 
 **Step 1:**
 
 Fork Repository
-
-```bash
-Click on the Fork
-```
 
 **Step 2:**
 
@@ -76,10 +77,6 @@ git clone [Forked Repo link]
 
 **Step 3:**
 
-Make Necessary Changes
-
-**Step 4:**
-
 Syncing a Forked Repository with Upstream
 
 ```bash
@@ -89,19 +86,20 @@ git checkout master
 git merge upstream/master
 ```
 
-**Step 5:**
+**Step 4:**
 
-Push Changes to Forked Repository
+Add, commit and Push Changes to Forked Repository
 
 ```bash
+git add your/file/path
+git commit -m "Fix/Add/Delete/Update something"
 git push
 ```
 
 **Step 6:**
 
-Create Merge Request
+Create Pull Request
 
-```bash
-By navigating to Create New Merge request
-```
+## Contributing 🤝
+Contributions, issues and feature requests are welcome.<br>Feel free to check [issues page](https://github.com/csi-vitpune/FlutterMagazine/issues) if you want to contribute.
 
